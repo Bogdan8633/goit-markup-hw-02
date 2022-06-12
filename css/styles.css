@@ -55,6 +55,7 @@ body {
 .menu-link:focus {
     color: var(--accent-color);
 }
+
 .connection {
     list-style: none;
 }
@@ -195,7 +196,8 @@ display: flex;
 
 
 /*страничка Портфолио*/
-
+.current {
+    color: var(--accent-color);}
 .button {
     color: var(--primery-color);
     background-color: #F5F4FA;
