@@ -198,7 +198,9 @@ display: flex;
 /*страничка Портфолио*/
 .current {
     color: var(--accent-color);}
-.button {
+
+/*кнопки-фильтры*/
+.filter {
     color: var(--primery-color);
     background-color: #F5F4FA;
     font-family: var(--primery-font);
@@ -207,9 +209,23 @@ display: flex;
     line-height: 1.62;
     text-align: center;
     letter-spacing: 0.03em;
+    cursor: pointer;
 }
-.button:hover
-.button:focus {
+.filter:hover,
+.filter:focus {
     color: var(--light-color);
     background-color: var(--accent-color);
+}
+.title-project {
+    font-size: 18px;
+    font-weight: var(--bolt-font);
+    line-height: 2.0;
+    letter-spacing: 0.06em;
+}
+.project {
+    color: var(--secondary-color);
+    font-weight: var(--normal-font);
+    font-size: var(--secondary-font-size);
+    line-height: 1.88;
+    letter-spacing: 0.03em;
 }
