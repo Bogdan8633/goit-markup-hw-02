@@ -21,9 +21,7 @@ body {
     letter-spacing: 0,03em;
 }
 /* header */
-.header {
-    padding: 24px 0 0;
-}
+
 .logo {
     color: var(--primery-color);
     font-family: var(--secondary-font);
