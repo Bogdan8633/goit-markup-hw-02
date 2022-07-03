@@ -20,45 +20,45 @@ body {
     font-family: var(--primery-font);
     letter-spacing: 0,03em;
 }
+
 /* header */
 
 .logo {
     color: var(--primery-color);
     font-family: var(--secondary-font);
     font-size: 26px;
-    font-weight: 700;
+    font-weight: var(--bolt-font);
     line-height: 1.19;
     text-decoration: none;
     letter-spacing: 0.03;
 }
+
 .accent {
     color: var(--accent-color);
 }
-.menu-list {
+
+.no-markers {
     list-style: none;
 }
 
 .menu-link {
     color: var(--primery-color);
-    text-decoration: none;
-    font-family: var(--primery-font);
-    font-size: var(--primary-font-size);
     font-weight: var(--medium-font);
+    text-decoration: none;
+    line-height: 1.14;
+    letter-spacing: 0.02em;
 }
 .menu-link:hover, 
 .menu-link:focus {
     color: var(--accent-color);
 }
 
-.connection {
-    list-style: none;
-}
 .contact-us {
     color: var(--secondary-color);
-    text-decoration: none;
-    font-family: var(--primery-font);
-    font-size: var(--primary-font-size);
     font-weight: var(--medium-font);
+    line-height: 1.14;
+    letter-spacing: 0.02em;
+    text-decoration: none;
 }
 .contact-us:hover,
 .contact-us:focus {
@@ -73,12 +73,13 @@ body {
     color: var(--light-color);
     font-weight: var(--bolder-font)
     font-size: 44px;
-    font-family: 'Roboto';  
+    font-family: var(--primery-font);
     line-height: 1.36;
     text-align: center;
     letter-spacing: 0.06em;
     text-transform: uppercase;
 }
+
 .button {
     font-family: inherit;
     
@@ -142,9 +143,7 @@ display: flex;
     line-height: 1.19;
     letter-spacing: 0.03em;
 }
-.no-markers {
-    list-style: none;
-}
+
 /* footer */
 .logo-footer {
     color: var(--light-color);
