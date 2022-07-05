@@ -71,7 +71,7 @@ body {
 /* hero */
 .hero-title {
     color: var(--light-color);
-    font-weight: var(--bolder-font)
+    font-weight: var(--bolder-font);
     font-size: 44px;
     font-family: var(--primery-font);
     line-height: 1.36;
@@ -90,9 +90,6 @@ background-color: var(--accent-color);
 font-weight: var(--bolt-font);
 font-size: var(--secondary-font-size);
 line-height: 1.88;
-display: flex;
-align-items: center;
-text-align: center;
 letter-spacing: 0.06em;
 cursor: pointer;
 display: flex;
@@ -108,12 +105,13 @@ display: flex;
 }
 .description {
     color: var(--secondary-color);
+    font-weight: var(--normal-font);
     font-size: var(--primary-font-size);
     line-height: 1.71;
     letter-spacing: 0.03em;
 }
 /* products */
-.services .working {
+.head-title {
     font-weight: var(--bolt-font);
     font-size: 36px;
     line-height: 1.17;
@@ -122,21 +120,15 @@ display: flex;
 }
 
 /* team */
-.team .personal {
-    font-weight: var(--bolt-font);
-    font-size: 36px;
-    line-height: 1.17;
-    text-align: center;
-    letter-spacing: 0.03em;
-}
-.we > .person {
+
+.person {
     font-weight: var(--medium-font);
     font-size: var(--secondary-font-size);
-    line-height: 1,19;
+    line-height: 1.19;
     
     letter-spacing: 0.03em;
 }
-.we .profession {
+.profession {
     color: var(--secondary-color);
     font-weight: var(--normal-font);
     font-size: var(--secondary-font-size);
@@ -157,7 +149,8 @@ display: flex;
 .dark {
     background-color: #2F303A;
 }
-.follow .find-us {
+
+.find-us {
     color: #FFFFFF;
     font-style: normal;
     font-weight: var(--normal-font);
@@ -166,9 +159,9 @@ display: flex;
 
     letter-spacing: 0.03em;
     text-decoration: none;
-
 }
-.follow .mail-tel {
+
+.mail-tel {
     color: rgba(255, 255, 255, 0.6);
     font-style: normal;
     font-weight: var(--normal-font);
@@ -178,12 +171,13 @@ display: flex;
     letter-spacing: 0.03em;
     text-decoration: none;
 }
-.follow .find-us:hover,
-.follow .find-us:focus {
+
+.find-us:hover,
+.find-us:focus {
     color: var(--accent-color)
 }
-.follow .mail-tel:hover,
-.follow .mail-tel:focus {
+.mail-tel:hover,
+.mail-tel:focus {
     color: var(--accent-color)
 }
 
